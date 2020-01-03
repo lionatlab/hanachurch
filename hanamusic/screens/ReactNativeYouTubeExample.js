@@ -28,6 +28,10 @@ export default class ReactNativeYouTubeExample extends React.Component {
 
   _youTubeRef = React.createRef();
 
+  static navigationOptions = {
+
+  };
+
   render() {
     return (
       <ScrollView style={styles.container}>
