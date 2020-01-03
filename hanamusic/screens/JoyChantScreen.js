@@ -43,7 +43,7 @@ export default class JoyChantScreen extends React.Component {
             <YouTube
               ref={this._youTubeRef}
               // You must have an API Key for the player to load in Android
-              apiKey="YOUR_API_KEY"
+              apiKey="AIzaSyCK_-JwOt2sjfcpIILdiPzsi-OckwD2jdU"
               // Un-comment one of videoId / videoIds / playlist.
               // You can also edit these props while Hot-Loading in development mode to see how
               // it affects the loaded native module
