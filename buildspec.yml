@@ -18,12 +18,10 @@ phases:
   
   build:
     commands:
-      - echo buildspec is found in root
-      - cd web
       - echo Testing...
-      - yarn test
+      - cd web && yarn test && cd ..
       - echo Building...
-      - yarn build
+      - cd web && yarn build && cd ..
 
 artifacts:
   files:
